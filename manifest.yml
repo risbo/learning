@@ -1,0 +1,8 @@
+applications:
+- path: target/learningweb.war
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: learninglanguages
+  host: learninglanguages
+  disk_quota: 512M
